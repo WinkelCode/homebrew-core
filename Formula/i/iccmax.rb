@@ -38,6 +38,7 @@ class Iccmax < Formula
     system "cmake", "--install", "build"
 
     pkgshare.install "Testing/Calc/CameraModel.xml"
+    pkgshare.install "XMLSchema"
   end
 
   test do
